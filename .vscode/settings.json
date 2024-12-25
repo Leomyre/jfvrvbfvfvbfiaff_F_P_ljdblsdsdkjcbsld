@@ -1,0 +1,20 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.validate.enable": true,
+  "eslint.enable": true,
+  "eslint.validate": ["javascript", "typescript", "typescriptreact"],
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "files.autoSave": "onWindowChange",
+  "files.autoSaveDelay": 1000,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.alwaysShowStatus": true,
+  "prettier.requireConfig": true,
+  "prettier.printWidth": 80,
+  "prettier.singleQuote": true
+}
